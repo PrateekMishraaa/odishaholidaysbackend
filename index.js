@@ -15,7 +15,8 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "https://odishaholidaysbackend.onrender.com",
-    "https://odisha-holidays-landingpage.vercel.app"
+    "https://odisha-holidays-landingpage.vercel.app",
+    "https://odishaholidays.netlify.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true

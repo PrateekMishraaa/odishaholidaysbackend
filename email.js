@@ -7,7 +7,7 @@ router.post("/sendmail", async (req, res) => {
 
   const mailOptions = {
     from: email, 
-    to: "pm921670@gmail.com",
+    to: "welcome@odishaholidays.in",
     subject: subject || "New message from contact form",
     html: `
       <p><strong>Name:</strong> ${name}</p>
